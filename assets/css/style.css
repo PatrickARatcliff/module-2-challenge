@@ -59,7 +59,7 @@ header nav a {
     width: fit-content;
     text-align: right;
     position: absolute;
-    right: 5%;
+    right: 10%;
     bottom: 10px;
     background-color: black;
     border: solid rgb(169,169,169,1);
