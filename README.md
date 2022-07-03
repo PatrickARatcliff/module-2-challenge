@@ -13,6 +13,3 @@
     "2316-1267351396iQbh.jpg"; Michael Mailen; License: CC0 Public Domain
     https://www.publicdomainpictures.net/en/view-image.php?image=5652&picture=lock-and-keys
 
-
-    reset.css style: By Alligator.io; 
-    Developer and author at DigitalOcean; June 20, 2017; https://www.digitalocean.com/community/tutorials/css-minimal-css-reset
