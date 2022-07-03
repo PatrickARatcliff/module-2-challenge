@@ -45,7 +45,7 @@ header nav a {
 
 #underbar {
     display: block;
-    width: 100%;
+    width: 110%;
     height: 100px;
     background: linear-gradient(90deg, rgb(36, 0, 0) 0%, rgb(164, 0, 0) 35%, rgb(255, 1, 1) 100%);
     color: white;

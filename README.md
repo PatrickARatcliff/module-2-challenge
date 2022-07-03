@@ -1,5 +1,7 @@
 # module-2-challenge
- 
+ github page deployed at:
+ https://patrickaratcliff.github.io/module-2-challenge/
+
 
  credits:
     images: 
