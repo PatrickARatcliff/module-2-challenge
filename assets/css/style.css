@@ -1,15 +1,21 @@
-
-
+/*unversal style for links*/
 a {
     text-decoration: none;
 }
-
+/*style for body including nav bar, under bar, and all sections*/
 body { 
     display: block;
     width: 100%;
-
     }
 
+h1, h2, h3, h4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+/*style for fixed header/navigation bar*/
 header {
     display: flex;
     position: fixed;
@@ -20,6 +26,7 @@ header {
 }
 
 header h1 {   
+    font-kerning:normal;
     display: flex;
     width: 50%;
     margin: 5px 1%; 
@@ -42,7 +49,7 @@ header nav a {
     text-decoration: none;
     
 }
-
+/*style for under bar with subtitle above sections*/
 #underbar {
     display: block;
     width: 110%;
@@ -57,22 +64,22 @@ header nav a {
 #underbar h3 {
     display:block;
     width: fit-content;
-    text-align: right;
+    border-radius: 0 5px 0 5px;
     position: absolute;
     right: 12%;
     bottom: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     border: solid rgb(169,169,169,1);
     padding: 10px;
 }
-
+/*styling for all sections including: About me, Work, and contact information*/
 main {
     display: block;
     width: 100%;
     position: relative;
     top: 150px;
 }
-
+/*styling for sections containing content boxes*/
 .section {
     display: inline-flex;
     width: 100%;
@@ -99,7 +106,7 @@ main {
     border-left: solid darkgray;
     text-align: left;
 }
-
+/*styling for box including header aand portfolio*/
 #boxsection {
     display: flex;
     width: 100%;
@@ -119,7 +126,7 @@ main {
     justify-content: right;
     text-decoration: none;
 }
-
+/*styling for content within portfolio boxes */
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -131,13 +138,13 @@ main {
     border-left: solid darkgray;
     margin-right: 7%;
 }
-
+/*unique styling for first box*/
 #box1 {
     position: relative;
     width: 97%;
     height: 100px;
-    border: solid 4px black;
-    
+    border: solid 4px rgba(0, 0, 0, 0.5);
+    border-radius: 0 10px 0 10px;
     margin-left: 1%; 
     background-image: url(../images/arrow-3256057_1920_rewrite_vs_refactor.webp);
     background-repeat: no-repeat;
@@ -150,16 +157,18 @@ main {
     position: absolute;
     bottom: 0;
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 5px 0 5px;
     color: white;
     padding: 2px 5px;
  }
-
+/*unique styling for second box*/
 #box2 {
     position: relative;
     width: 46%;
     height: 100px;
-    border: solid 4px black;
+    border: solid 4px rgba(0, 0, 0, 0.5);
+    border-radius: 0 10px 0 10px;
     margin: auto;
     margin-top: 1%;
     padding-left:10px;
@@ -175,32 +184,35 @@ main {
     bottom: 0;
     left: 0;
     text-decoration: none;
-    background-color: black;
+    border-radius: 0 5px 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 2px 5px;
  }
-
+/*styling for remianing portfolio boxes*/
 .box {
     position: relative;
     width: 46%;
     height: 100px;
-    border: solid 4px black;
+    border: solid 4px rgba(0, 0, 0, 0.5);
+    border-radius: 0 10px 0 10px;
     margin: auto;
     margin-top: 1%;
     padding-left:10px; 
-    background-color: rgb(169,169,169,1);  
+    background-image: linear-gradient(90deg, rgb(196, 196, 196) 0%, rgb(182, 182, 182) 35%, rgb(240, 240, 240) 100%);  
 }
 
 .box a {
     position: absolute;
-   bottom: 0;
-   left: 0;
-   text-decoration: none;
-   background-color: black;
-   color: white;
-   padding: 2px 5px;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    border-radius: 0 5px 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px 5px;
 }
-
+/*styling for list including contact information*/
 .section ul {
     display: flex;
     width: 75%;
@@ -214,7 +226,7 @@ main {
      display: inline-block;
      margin: 1%;
  }
-
+/*styling for screen size 768px to 569px*/
  @media screen and (max-width: 768px) {
       .portfolio {
         flex-direction: column;
@@ -237,7 +249,6 @@ main {
           font-size: medium;
           padding-left: 1%;
       }
-    
 
      #underbar {
         background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(3, 0, 164) 35%, rgb(18, 1, 255) 100%);
@@ -251,7 +262,7 @@ main {
         font-size: 12px;
     }
  }
-
+/*styling for screen size 569px and smaller*/
  @media screen and (max-width: 568px) {
     .section ul {
         display:block;
@@ -272,8 +283,5 @@ main {
     
     nav a {
         font-size: small;
-    }
-
-
-    
+    }   
  }
