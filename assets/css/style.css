@@ -216,6 +216,11 @@ main {
     color: white;
     padding: 2px 5px;
 }
+
+#box5 {
+
+    background-image: url(..//images/bg_image-forest.jpeg) ;
+}
 /*styling for remianing portfolio boxes*/
 .box {
     position: relative;
